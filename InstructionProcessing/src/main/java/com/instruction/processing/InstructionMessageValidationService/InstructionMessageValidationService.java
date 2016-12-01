@@ -95,10 +95,10 @@ public class InstructionMessageValidationService {
 				return IConstants.RETURN_FALSE;
 			}
 
-			// if (StringUtils.isEmpty(instructionArray[5]) ||
-			// !validateTimeStamp(instructionArray[5])) {
-			// return IConstants.RETURN_FALSE;
-			// }
+			 if (StringUtils.isEmpty(instructionArray[5]) ||
+					 !validateTimeStamp(instructionArray[5])) {
+			 return IConstants.RETURN_FALSE;
+			 }
 		}
 		return isValid;
 	}

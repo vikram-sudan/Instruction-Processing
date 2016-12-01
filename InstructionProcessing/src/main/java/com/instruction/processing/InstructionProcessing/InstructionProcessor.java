@@ -12,11 +12,11 @@ public class InstructionProcessor
     public static void main( String[] args )
     {
         System.out.println( "Initiliazing");
-        String messageReceived =  "InstructionMessage A MZ89 5678 50 2016­08­05T10:04:56.012Z";
-        String messageReceived1 = "InstructionMessage B MZ90 5679 60 2016­07­05T10:04:56.012Z";
-        String messageReceived2 = "InstructionMessage C AG91 5680 70 2016­05­05T10:04:56.012Z";
-        String messageReceived3 = "InstructionMessage D EF12 5681 80 2016­04­05T10:04:56.012Z";
-        String messageReceived4 = "InstructionMessage E MZ81 5878 90 2016­03­05T10:04:56.012Z";
+        String messageReceived =  "InstructionMessage A MZ89 5678 50 2016-11-29T18:46:19.012Z";
+        String messageReceived1 = "InstructionMessage B MZ90 5679 60 2016-06-29T18:46:19.012Z";
+        String messageReceived2 = "InstructionMessage C AG91 5680 70 2016-08-29T18:46:19.012Z";
+        String messageReceived3 = "InstructionMessage D EF12 5681 80 2016-12-1T18:46:19.012Z";
+        String messageReceived4 = "InstructionMessage E MZ81 5878 90 2016-11-30T18:46:19.012Z";
         	
         InstructionMessage instMessage = new InstructionMessage();
         instMessage.receive(messageReceived);

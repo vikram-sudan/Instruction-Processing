@@ -145,10 +145,10 @@ public class InstructionMessageValidationServiceTest {
 	@Test
 	public void validateInstructionMessageTest(){
 		
-		String validMessage1 = "InstructionMessage A MZ89 5678 50 2016­08­05T10:04:56.012Z";
-		String validMessage2 = "InstructionMessage B MZ90 5679 60 2016­07­05T10:04:56.012Z";
-		String validMessage3 = "InstructionMessage C AG91 5680 70 2016­05­05T10:04:56.012Z";
-		String validMessage4 = "InstructionMessage D MZ81 5878 90 2016­03­05T10:04:56.012Z";
+		String validMessage1 = "InstructionMessage A MZ89 5678 50 2016-11-29T18:46:19.012Z";
+		String validMessage2 = "InstructionMessage B MZ90 5679 60 2016-11-30T18:46:19.012Z";
+		String validMessage3 = "InstructionMessage C AG91 5680 70 2016-11-30T18:46:19.012Z";
+		String validMessage4 = "InstructionMessage D MZ81 5878 90 2016-11-29T18:46:19.012Z";
 				
 		String invalidMessage1 = "InstructionMessage E EF12 5681 80 2016­04­05T10:04:56.012Z";
 		String invalidMessage2 = "InstructionMessage A aa12 5681 80 2016­04­05T10:04:56.012Z";
